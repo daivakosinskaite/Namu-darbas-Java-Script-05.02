@@ -1,0 +1,22 @@
+.hidden {
+    display: none;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 250px);
+    gap: 10px;
+}
+
+#gallery img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+button {
+    width: 100px;
+    height: 25px;
+    background-color: rgb(166, 233, 211);
+    margin-left: 45vw;
+}
